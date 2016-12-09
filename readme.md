@@ -5,26 +5,6 @@ CLI tool for shaping and processing csv file interactively.
 * High speed processing by using [MCMD](http://www.nysol.sakura.ne.jp/mcmd2/en/sect-whatis.html)
 * Generally compatible options with MCMD
 
-### VS R
-
-* csvから適当な列を抽出する例
-
-```Shell
-$ cat test.csv
-h1,h2,h3
-10,20,30
-40,50,60
-70,80,90
-
-$ imcut < test.csv > output.csv
-## interactive column selection ##
-$ cat output.csv
-h2
-20
-50
-80
-```
-
 ## Required tools
 ### mcmd
 refer [Installation page](http://www.nysol.jp/en/home/install)
