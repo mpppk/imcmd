@@ -66,3 +66,5 @@ SepalWidth,PetalLength
 3.5,1.4
 3,1.4
 ```
+
+![imcut demo gif](imgs/imcut_demo.gif)
