@@ -8,7 +8,7 @@ const program = require('commander');
 program
     .version('0.0.1')
     .option('-i, --input [file path]', 'input')
-    .option('-r, --remove', 'remove')
+    .option('-r, --remove', 'Field removal switch')
     .parse(process.argv);
 
 const inputData = fs.readFileSync(program.input ? program.input : '/dev/stdin', 'utf8');
